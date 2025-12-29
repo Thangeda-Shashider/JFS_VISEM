@@ -1,5 +1,24 @@
 1. git init
 
+	// rmdir file_name (To remove an empty file_name)
+	// rmdir /s /q .git (To remove .git file or to remove folder with content)
+	// dir (To show the existance of the file)
+	// cls (To clear the screen)
+	// mkdir file_name (To create new directory)
+	// attrib +h file_name (To hide the file)
+	// attrib -h file_name (To remove the hidden attribute / unhide the file)
+	// dir /a:h (To display the hidden folder)
+	// rename existing_file_name new_file_name (To rename a file)
+	// type file_name (To view the content in that file)
+	// notepad filename.txt (To create a new text file)
+	// type existing_file > destination_file (To transfer data)
+	// del file_name (To delete a file)
+	// del *.txt (To delete all the text files)
+	/* The list of wild characters:
+		? - single character
+		* - 0 or more characters */
+	// dir ?.txt (To display all the single	
+
 2. git add .
 
 3. git commit -m "message"
